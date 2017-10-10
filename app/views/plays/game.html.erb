@@ -1,0 +1,15 @@
+
+<!-- require_relative "longest_word"
+ -->
+<h1> ******** Welcome to the longest word-game!********</h1>
+<h2> "Here is your grid:" </h2>
+<% grid = generate_grid(9) %>
+<%= grid.join(" ") %>
+<h1> ***************************************************** </h1>
+
+<h2> "What's your best shot?" </h2>
+<% start_time = Time.now %>
+<% attempt = gets.chomp %>
+<% end_time = Time.now %>
+
+
